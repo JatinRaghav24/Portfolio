@@ -1,0 +1,47 @@
+.resskills{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    
+}
+
+.skill-item {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+.skill-icon{
+    background: #252525;
+    width: 17%;
+    padding: 30px;
+    cursor: pointer;
+}
+.skill-top{
+    width: 70%;
+}
+.skill-top p{
+    font-size: 13px;
+    margin-top: 2vw;
+    color: grey;
+}
+@media (max-width:900px){
+    .skill-icon{
+    padding: 15px;
+
+    }
+    
+}
+@media (max-width:800px){
+    .skill-icon{
+    padding: 10px;
+
+    }
+    .skill-top{
+        width: 100%;
+    }
+    .skill-top p{
+        font-size: 12px;
+    }
+}

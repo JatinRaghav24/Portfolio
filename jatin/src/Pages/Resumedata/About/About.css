@@ -1,0 +1,43 @@
+.resabout {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+}
+.about-top {
+  width: 70%;
+}
+.about-top p {
+  font-size: 13px;
+  margin-top: 2vw;
+  color: grey;
+}
+.about-data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: baseline;
+}
+.about-para {
+  color: rgb(154, 154, 154);
+  font-size: 15px;
+}
+.about-head {
+  color: #fff;
+  font-size: 15px;
+}
+.name {
+  display: flex;
+  gap: 30px;
+}
+@media (max-width: 900px) {
+  .about-top {
+    width: 100%;
+  }
+  .about-top p {
+    font-size: 12px;
+  }
+  .about-data {
+    display: flex;
+    flex-direction: column;
+  }
+}
+

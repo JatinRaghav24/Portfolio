@@ -1,0 +1,10 @@
+.resume{
+    
+    width: 90%;
+    margin: 10vw auto;
+}
+@media (max-width:550px){
+    .resume{
+        margin-top: 15vw;
+    }
+}

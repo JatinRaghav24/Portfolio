@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,500;1,500&family=Kumar+One+Outline&family=Montserrat:ital,wght@0,500;1,500&family=Shrikhand&display=swap');
+ h1{
+    text-align: center;
+
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    justify-content: space-around;
+}
+.num-details{
+    font-family: "Kumar One Outline", system-ui;
+}
+hr{
+    color: #a8a8a8;
+}
+.cards {
+    display: flex;
+    margin-top: 5vw;
+    max-width: 30vw;
+}
+
+.card-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.cart-data p{
+    color: #a8a8a8;
+}
+.iconnum{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.iconnum a{
+        font-size: 3.5vw;
+        color: #fff;
+    
+}
+@media (max-width:900px){
+    .services{
+        gap: 1vw;
+    }
+    .cart-data h2{
+        font-size: 20px;
+    }
+    .cart-data p{
+        font-size: 15px;
+    }
+}
+@media (max-width:700px){
+    .cards {
+        
+        max-width: 70%;
+    }
+    
+}

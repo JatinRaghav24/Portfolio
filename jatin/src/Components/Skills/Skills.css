@@ -1,0 +1,68 @@
+.skills{
+    margin-top: 4vw;
+    padding-bottom: 4vw;
+}
+.skill-section {
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr;
+    gap: 5vw;
+}
+.skill-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+.single-skill{
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+    margin-bottom: 2rem;
+}
+
+.skillpara{
+    font-size: 15px;
+    color: grey;
+}
+.bar{
+    position: absolute;
+    bottom: -.75rem;
+    height: .25rem;
+    background-color: aqua;
+}
+.bar-1{
+    width: 60%;
+}
+.bar-2{
+    width: 70%;
+}
+.bar-3{
+    width: 75%;
+}
+.bar-4{
+    width: 60%;
+}
+.bar-5{
+    width: 80%;
+}
+.bar-6{
+    width: 75%;
+}
+.bar-7{
+    width: 60%;
+}
+.bar-8{
+    width: 80%;
+}
+@media (max-width:700px){
+    
+    .skill-section{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+}

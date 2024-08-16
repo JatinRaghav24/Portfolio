@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,500;1,500&family=Montserrat:ital,wght@0,500;1,500&family=Shrikhand&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(19, 19, 19);
+    font-family: "JetBrains Mono",monospace;
+    color: #fff;
+    max-height: 100vh;
+
+}
+li,a{
+    text-decoration: none;
+    list-style: none;
+
+}
+span{
+    color: aqua;
+}

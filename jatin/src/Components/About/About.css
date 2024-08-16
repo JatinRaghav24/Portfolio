@@ -1,0 +1,26 @@
+.about{
+    display: flex;
+    gap: 10%;
+    margin-top: 4vw;
+    padding-bottom: 5vw;
+    
+    
+}
+.about-img{
+    width: 300px;
+    
+}
+.about-left{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    margin-top: 5vw;
+
+}
+
+@media (max-width:750px){
+    .about{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}

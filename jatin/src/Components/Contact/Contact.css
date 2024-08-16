@@ -1,0 +1,98 @@
+.contact {
+    margin: 5vw auto;
+    display: flex;
+    align-items: center;
+    gap: 10vw;
+}
+.right-contact {
+    width: 50%;
+}
+.left-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.items {
+    display: flex;
+    gap: 3vw;
+    align-items: end;
+}
+.para {
+    font-size: 15px;
+    color: grey;
+}
+.icon {
+    font-size: 28px;
+    color: aqua;
+    padding: 4px 8px;
+    background: #252525;
+    border-radius: 7px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    background: #252525;
+    padding: 2vw;
+    border-radius: 10px;
+}
+.inputs {
+    display: flex;
+    gap: 2vw;
+}
+.inputs input {
+    border-radius: 7px;
+    width: 100%;
+    background: black;
+    padding: 7px;
+    border: none;
+    color: grey;
+    font-size: 15px;
+
+}
+.form-dta{
+    border-radius: 7px;
+    background: black;
+    padding: 7px;
+    border: none;
+    color: grey;
+    font-size: 15px;
+
+
+}
+input[type="submit"] {
+    display: block;
+    width: 31%;
+    padding: 4px 10px;
+    background: aqua;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+select {
+    background: black;
+    padding: 10px;
+    border: none;
+    color: grey;
+    border-radius: 7px;
+    gap: 1vw;
+    font-size: 15px;
+}
+@media (max-width:900px){
+    .left-contact {
+        
+        display: none;
+    }
+    .right-contact {
+        margin: auto;
+        width: 90%;
+    }
+}
+@media (max-width:550px){
+    input[type="submit"] {
+        width: 40%;
+        font-size: 12px;
+    }
+}

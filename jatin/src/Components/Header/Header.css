@@ -211,5 +211,8 @@
     height: 250px;
     overflow: hidden;
     }    
+    .basic-details {
+        font-size: 7vw;
+    }
     
 }

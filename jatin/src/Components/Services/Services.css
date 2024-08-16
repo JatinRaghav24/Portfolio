@@ -54,7 +54,12 @@ hr{
 @media (max-width:700px){
     .cards {
         
-        max-width: 70%;
+        max-width: 90%;
     }
-    
+    .cart-data p {
+        font-size: 12px;
+    }
+    .iconnum a {
+        font-size: 6vw;
+    }
 }

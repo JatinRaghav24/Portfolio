@@ -90,6 +90,13 @@ select {
         width: 90%;
     }
 }
+@media (max-width:650px){
+    form {
+        display: flex;
+        padding: 30px 10px;
+    }
+}
+
 @media (max-width:550px){
     input[type="submit"] {
         width: 40%;

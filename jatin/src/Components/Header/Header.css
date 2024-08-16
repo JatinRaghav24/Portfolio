@@ -161,7 +161,7 @@
     }
     
 }
-@media (max-width:900px){
+@media (max-width:800px){
     .header {
         flex-direction: column-reverse;
         gap: 0;
@@ -193,10 +193,23 @@
         display: none;
     }
     .download {
-        width: 100%;
+        width: 80%;
         justify-content: center;
+        padding: 7px 5px;
     }
     .header-icon{
         display: none;
     }
+    .details-self {
+        font-size: 3.5vw;
+    }
+    .header-right {
+        width: 90%;
+    }
+    .photo-img {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    }    
+    
 }

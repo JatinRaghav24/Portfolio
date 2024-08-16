@@ -24,3 +24,13 @@
         align-items: center;
     }
 }
+@media (max-width:6500px){
+    .about-para {
+        font-size: 10px;
+    }
+    .about-img {
+        width: 250px;
+        height: 250px;
+    }
+}
+

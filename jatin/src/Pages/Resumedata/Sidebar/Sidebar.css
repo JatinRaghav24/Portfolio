@@ -87,6 +87,9 @@
 .btnactive{
     margin-bottom: 2vw;
 }
+    .content {
+        width: 90%;
+    }
     
 
 }
